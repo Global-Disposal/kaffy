@@ -15,7 +15,7 @@
     <% end %>
     <script src="<%= Kaffy.Utils.static_asset_path(@conn, "/kaffy/assets/vendors/js/vendor.bundle.base.js") %>"></script>
   </head>
-  <body>
+  <body class="sidebar-icon-only">
     <div class="container-scroller">
       <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
         <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
