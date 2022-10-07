@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="<%= Kaffy.Utils.static_asset_path(@conn, "/kaffy/assets/scss/style.css") %>">
     <link rel="stylesheet" href="<%= Kaffy.Utils.static_asset_path(@conn, "/kaffy/assets/vendors/flatpickr/flatpickr.min.css") %>">
     <link rel="stylesheet" href="<%= Kaffy.Utils.static_asset_path(@conn, "/kaffy/assets/css/kaffy.css") %>">
-    <link rel="shortcut icon" href="<%= Kaffy.Utils.static_asset_path(@conn, "/kaffy/assets/images/favicon/favicon-32x32.png") %>" />
     <%= for css <- Kaffy.Utils.extensions(@conn).stylesheets do %>
       <%= css %>
     <% end %>
