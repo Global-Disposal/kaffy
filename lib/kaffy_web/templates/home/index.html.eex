@@ -41,6 +41,10 @@
             <%= if widget.type == "tidbit" do %>
                 <%= render KaffyWeb.HomeView, "_tidbit.html", widget: widget %>
             <% end %>
+
+            <%= if widget.type == "raw_html" do %>
+                <%= render KaffyWeb.HomeView, "_raw_html.html", widget: widget %>
+            <% end %>
         <% end %>
     </div>
 
